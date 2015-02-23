@@ -1,0 +1,24 @@
+{
+  "name": "node-inspector-breakpoints-in-submodules",
+  "version": "1.0.0",
+  "description": "test case for node-inspector issue #416 see: https://github.com/node-inspector/node-inspector/issues/416",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-debug withRequiredSubmodule.js",
+    "alt": "node-debug withRequiredFile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/refactorized/borks-node-inspector-not-breaking-in-submodules.git"
+  },
+  "author": "Adam Tolley (refactorized)",
+  "license": "No Rights Reserved",
+  "bugs": {
+    "url": "https://github.com/refactorized/borks-node-inspector-not-breaking-in-submodules/issues"
+  },
+  "homepage": "https://github.com/refactorized/borks-node-inspector-not-breaking-in-submodules",
+  "dependencies": {
+    "breaks": "^1.0.0"
+  }
+}
